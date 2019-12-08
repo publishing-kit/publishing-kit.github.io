@@ -1,17 +1,22 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "publishing-kit.github.io",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The website for Publishing Kit",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Matthew Daly <450801+matthewbdaly@users.noreply.github.com>",
   "dependencies": {
     "gatsby": "^2.18.4",
     "gatsby-image": "^2.2.34",
+    "gatsby-plugin-google-analytics": "^2.1.29",
     "gatsby-plugin-manifest": "^2.2.30",
     "gatsby-plugin-offline": "^3.0.24",
+    "gatsby-plugin-postcss": "^2.1.15",
     "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sharp": "^2.3.4",
+    "gatsby-plugin-sitemap": "^2.2.21",
     "gatsby-source-filesystem": "^2.1.39",
+    "gatsby-transformer-remark": "^2.6.37",
     "gatsby-transformer-sharp": "^2.3.6",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -19,7 +24,10 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "postcss-nesting": "^7.0.1",
+    "prettier": "^1.19.1",
+    "tailwindcss": "^1.1.3"
   },
   "keywords": [
     "gatsby"
